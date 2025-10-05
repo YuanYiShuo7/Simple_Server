@@ -1,0 +1,35 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Application",
+            "request": "launch",
+            "mainClass": "io.yys.server.web.Application",
+            "projectName": "server-web"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "io.yys.server.Main",
+            "projectName": "model"
+        },
+        {
+            "type": "java",
+            "name": "AdminWebApplication",
+            "request": "launch",
+            "mainClass": "io.yys.server.AdminWebApplication",
+            "projectName": "web-admin"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-Main<web-admin>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "io.yys.server.Main",
+            "projectName": "web-admin",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
